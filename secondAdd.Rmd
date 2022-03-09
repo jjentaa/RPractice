@@ -1,0 +1,36 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+mtcars #dataset don't need to install
+```
+
+```{r}
+#Use the question mark to get information about the data set
+
+?mtcars #the output show in help right hand side
+```
+
+```{r}
+data <- mtcars
+
+#dim() check the dimension
+dim(data) 
+
+#show the data of the position
+data[1, 0]
+
+#show the column name
+names(data)
+
+#show the row name
+row.names(data)
+```
+
+![](images/Screen%20Shot%202022-03-08%20at%2019.44.30.png)
+
+```{r}
+
+```
